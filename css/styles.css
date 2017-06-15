@@ -1,0 +1,35 @@
+table {
+  width: 90%;
+}
+td {
+  width: 33.33%;
+  position: relative;
+  border: black solid 1px;
+}
+td:after {
+  content: '';
+  display: block;
+  margin-top: 100%;
+}
+td .content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 150px;
+  text-align: center;
+}
+
+
+/*#one {
+  background-color: red;
+}
+
+#two {
+  background-color: red;
+}
+
+#three {
+  background-color: red;
+}*/
